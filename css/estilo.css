@@ -30,7 +30,6 @@ body{
   /* background-color: #f7f7f7; */
 }
 
-
 .container{
   max-width: 1000px;
   margin: 0 auto;
@@ -166,6 +165,9 @@ li button.dark{
 }
 
 .fa-brands.dark{
+  color: var(--grey);
+}
+.bx.dark{
   color: var(--grey);
 }
 
@@ -737,6 +739,30 @@ li button:hover{
 .fa-js:hover{
   transform: scale(1.1);
   color: #f0db4f;
+}
+.fa-react:hover{
+  transform: scale(1.1);
+  color: #61dbbd;
+}
+.bxl-redux:hover{
+  transform: scale(1.1);
+  color: #764abc;
+}
+.bxl-postgresql:hover{
+  transform: scale(1.1);
+  color: #3DA0B4;
+}
+.fa-node:hover{
+  transform: scale(1.1);
+  color: #58a063;
+}
+.bxl-typescript:hover{
+  transform: scale(1.1);
+  color: #007acc;
+}
+.bxl-sass:hover{
+  transform: scale(1.1);
+  color: #cc6899;
 }
 
 a .fa-linkedin:hover{

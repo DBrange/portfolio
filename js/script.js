@@ -73,6 +73,7 @@ $chk.addEventListener('change', (e) => {
   const $labelDark = document.querySelector('.label');
   const $ballDark = document.querySelector('.label .ball');
   const $iconDark = document.querySelectorAll('.fa-brands');
+  const $iconDarkBx = document.querySelectorAll(".bx");
   const $iconDownDark = document.querySelector('.fa-angles-down');
   const $iconUpDark = document.querySelector('.fa-angles-up');
   const $footerDark = document.querySelector('.footer');
@@ -83,6 +84,7 @@ $chk.addEventListener('change', (e) => {
   $navBgdDark.forEach(el => el.classList.toggle('dark'));
   $startAppDark.forEach(el => el.classList.toggle('dark'));
   $iconDark.forEach(el => el.classList.toggle('dark'));
+  $iconDarkBx.forEach(el => el.classList.toggle('dark'));
   document.body.classList.toggle('dark');
   $submitForm.classList.toggle('dark');
   $headerDark.classList.toggle('dark');
