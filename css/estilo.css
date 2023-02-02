@@ -318,6 +318,13 @@ header nav i{
   font-size: 15px;
 }
 
+.ic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
 /* ------------------------ */
 
 /* -------- PROFILE -------- */
