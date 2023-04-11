@@ -1,5 +1,10 @@
 const $allProjects = [
   {
+    name: "Final Project",
+    src: "pf",
+    href: "https://pf-front-end.vercel.app/",
+  },
+  {
     name: "Calculator",
     src: "calculator",
     href: "calculator",
@@ -43,5 +48,5 @@ const $allProjects = [
     name: "Country Guide API",
     src: "country-guide",
     href: "country-guide-api",
-  }
+  },
 ];
