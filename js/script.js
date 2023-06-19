@@ -17,10 +17,9 @@ $allProjects.forEach(el => {
 
   const aTag = document.createElement('a');
   aTag.href = `./pages/${el.href}`;
-  if (aTag.href.includes('https')) {
-    aTag.href = 'https://pf-front-end.vercel.app/';
-   
- }
+  if (aTag.href.includes("https://pf-front-end.vercel.app/")) {
+    aTag.href = "https://pf-front-end.vercel.app/";
+  }
     aTag.target = "_blank";
   aTag.classList.add("start-app");
   aTag.id = "start-app";
