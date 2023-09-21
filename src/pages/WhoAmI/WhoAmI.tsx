@@ -25,7 +25,7 @@ const WhoAmI = () => {
         </p>
         <p>
           He trabajado siempre con el mismo objetivo, dar soluciones a los
-          problemas, tanto en <b>Back-end</b> como en <b>Fornt-end</b>, aprendiendo en el camino. Si este sitio llamó su atención, no dudes en
+          problemas, tanto en <b>Back-end</b> como en <b>Fornt-end</b>, aprendiendo en el camino. Si este sitio llamó su atención, no dude en
           ponerse en contacto conmigo.
         </p>
         <Link href="mailto:brangedidier@gmail.com" type={LinkTypes.BUTTON}>
