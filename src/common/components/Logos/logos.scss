@@ -1,0 +1,13 @@
+.logo {
+  &--big {
+    width: $spacing-xxlarge;
+  }
+
+  &--small {
+    width: $spacing-large;
+  }
+
+  &--xsmall {
+    width: $spacing-regular;
+  }
+}

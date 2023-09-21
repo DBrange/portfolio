@@ -1,1 +1,0 @@
-.header{grid-area:header}.main{grid-area:main}.sidebar{grid-area:sidebar}.footer{grid-area:footer}.app-container{color:red;display:grid;min-height:100vh;grid-template-rows:auto;grid-template-columns:4fr 1fr;grid-template-areas:"header header" "main main" "main main" "footer footer"}/*# sourceMappingURL=App.min.css.map */
