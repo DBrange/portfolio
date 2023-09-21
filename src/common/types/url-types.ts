@@ -8,7 +8,7 @@ enum URL {
   GITHUB = "https://github.com/DBrange",
   MAIL = "brangedidier@gmail.com",
   CATALOGO = "https://vimeo.com/317810816",
-  PORTFOLIO = "",
+  PORTFOLIO = "https://dbrange.github.io/portfolio/",
 }
 
 export default URL;
