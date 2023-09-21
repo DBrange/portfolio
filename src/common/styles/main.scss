@@ -1,0 +1,24 @@
+@import "variables";
+@import "themes";
+@import "fonts";
+@import "mixins";
+
+// NORMALIZE
+@import "./normalize.scss";
+
+// COMMON COMPONENTS
+
+// COMPONENTS
+@import '../../App.scss';
+
+// PAGES
+@import '../../pages/Home/home.scss';
+// BASIC STYLES
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  // @include themed(color, "text");
+  // @include themed(background-color, "background");
+}
