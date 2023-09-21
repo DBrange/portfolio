@@ -7,6 +7,7 @@ import { Page } from '../../common/reducers/visible-page/visible-page-types';
 import URL from '../../common/types/url-types';
 import Box from '../../components/Box/Box';
 import Title from '../../components/Title/Title';
+import ReclamoWebLogo from '../../common/components/Logos/social/ReclamoWebLogo';
 
 const Projects = () => {
   const ref = useRef<HTMLDivElement | null>(null);
@@ -23,7 +24,6 @@ const Projects = () => {
           title="Reclamo Web"
           description="Facilitar reclamos o seguros, tanto para vehiculos o electrodomesticos."
           tags={["Typescript", "Nest", "PostgreSQL", "TypeORM"]}
-          image={GitHubLogo}
           imageSize={LogoSize.XSMALL}
           url={URL.RECLAMOWEB}
         />
@@ -46,7 +46,7 @@ const Projects = () => {
         <Box
           title="Mi sitio web"
           description="Este mismo sitio web, pero tras bambalinas."
-          tags={["Typescript", "React", 'SASS']}
+          tags={["Typescript", "React", "SASS"]}
           image={GitHubLogo}
           imageSize={LogoSize.XSMALL}
           url={URL.PORTFOLIO}

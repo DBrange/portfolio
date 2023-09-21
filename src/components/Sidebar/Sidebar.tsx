@@ -4,7 +4,6 @@ import Logo from '../../common/components/Logos/Logo';
 import { LogoSize } from '../../common/components/Logos/logos-types';
 import GitHubLogo from '../../common/components/Logos/social/GitHubLogo';
 import LinkedinLogo from '../../common/components/Logos/social/LinkedinLogo';
-import YoutubeLogo from '../../common/components/Logos/social/YoutubeLogo';
 import WebLogo from '../../common/components/Logos/local/WebLogo';
 import Switch from '../../common/components/Switch/Switch';
 import useTheme from '../../common/hooks/useTheme';

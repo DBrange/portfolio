@@ -6,7 +6,7 @@ export type BoxProps = {
   title: string;
   description: string;
   tags: string[];
-  image: FC;
+  image?: FC;
   imageSize: LogoSize;
   url: URL;
 };
