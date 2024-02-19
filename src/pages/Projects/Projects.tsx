@@ -28,7 +28,7 @@ const Projects = () => {
           url={URL.RECLAMOWEB}
         />
         <Box
-          title="Staff Sphere ORM"
+          title="Staff Sphere CRM"
           description="Gestionador de recursos humanos."
           tags={["Javascript", "React", "Express", "PostgreSQL"]}
           image={GitHubLogo}

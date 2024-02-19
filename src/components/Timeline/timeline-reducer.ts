@@ -10,7 +10,7 @@ const initialState: TimelineState = {
         "Encargado 100% del frontend y parte del backend.",
         "Algunas tecnologias usadas: React, Nest, Typescrpt, PostgreSQL, +",
       ],
-      header: "Julio 2023 - Presente",
+      header: "Julio 2023 - Enero 2024",
       title: {
         position: "Fullstack Developer",
         company: {
@@ -22,7 +22,7 @@ const initialState: TimelineState = {
     {
       content: [
         "Liderar el desarrollo frontend del proyecto.",
-        "Junto a un 7 compañeros de equipo, desarrollamos un ORM accesible, para grandes y pequeñas empresas.",
+        "Junto a un 7 compañeros de equipo, desarrollamos un CRM accesible, para grandes y pequeñas empresas.",
         "Algunas tecnologias usadas: React, Express, Javascript, PostgreSQL, +",
       ],
       header: "Marzo 2023 - Abril 2023",
