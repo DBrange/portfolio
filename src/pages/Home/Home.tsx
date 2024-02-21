@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import AnimationBlock from "../../common/components/AnimationBlock/AnimationBlock";
 import useVisiblePage from "../../common/hooks/useVisiblePage";
 import { Page } from "../../common/reducers/visible-page/visible-page-types";

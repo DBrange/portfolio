@@ -1,13 +1,11 @@
-import React, { useRef } from 'react';
-import { LogoSize } from '../../common/components/Logos/logos-types';
-import GitHubLogo from '../../common/components/Logos/social/GitHubLogo';
-import VimeoLogo from '../../common/components/Logos/social/VimeoLogo';
-import useVisiblePage from '../../common/hooks/useVisiblePage';
-import { Page } from '../../common/reducers/visible-page/visible-page-types';
-import URL from '../../common/types/url-types';
-import Box from '../../components/Box/Box';
-import Title from '../../components/Title/Title';
-import ReclamoWebLogo from '../../common/components/Logos/social/ReclamoWebLogo';
+import { useRef } from "react";
+import { LogoSize } from "../../common/components/Logos/logos-types";
+import GitHubLogo from "../../common/components/Logos/social/GitHubLogo";
+import useVisiblePage from "../../common/hooks/useVisiblePage";
+import { Page } from "../../common/reducers/visible-page/visible-page-types";
+import URL from "../../common/types/url-types";
+import Box from "../../components/Box/Box";
+import Title from "../../components/Title/Title";
 
 const Projects = () => {
   const ref = useRef<HTMLDivElement | null>(null);

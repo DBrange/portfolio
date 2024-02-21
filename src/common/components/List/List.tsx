@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import COLOR from '../../types/color-types';
 import { ListProps } from './list-types';
 

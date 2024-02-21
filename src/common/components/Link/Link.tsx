@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { LinkProps, LinkTypes } from './link-types';
 
 const Link: FC<LinkProps> = ({

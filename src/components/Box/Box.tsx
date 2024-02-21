@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import Link from "../../common/components/Link/Link";
 import { LinkTypes } from "../../common/components/Link/link-types";
 import Logo from "../../common/components/Logos/Logo";

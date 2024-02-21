@@ -1,7 +1,6 @@
-import React from 'react';
 
 export type SwitchProps = {
-  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  onClick: any;
   checkedIcon?: string;
   uncheckedIcon?: string;
   checked: boolean;

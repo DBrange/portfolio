@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 
 const GitHubLogo: FC = () => (
   <svg fill='currentColor' stroke='currentColor' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 46 46'>

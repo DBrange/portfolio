@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-import React, { useRef } from "react";
+import { useRef } from "react";
 import Button from "../../common/components/Button/Button";
 import Link from "../../common/components/Link/Link";
 import { LinkTypes } from "../../common/components/Link/link-types";
@@ -25,7 +25,8 @@ const WhoAmI = () => {
         </p>
         <p>
           He trabajado siempre con el mismo objetivo, dar soluciones a los
-          problemas, tanto en <b>Back-end</b> como en <b>Fornt-end</b>, aprendiendo en el camino. Si este sitio llamó su atención, no dude en
+          problemas, tanto en <b>Back-end</b> como en <b>Fornt-end</b>,
+          aprendiendo en el camino. Si este sitio llamó su atención, no dude en
           ponerse en contacto conmigo.
         </p>
         <Link href="mailto:brangedidier@gmail.com" type={LinkTypes.BUTTON}>

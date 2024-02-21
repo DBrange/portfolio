@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { ButtonProps } from './button-types';
 
 const Button: FC<ButtonProps> = ({ label }) => (

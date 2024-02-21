@@ -7,7 +7,7 @@ export enum Page {
 
 export type PageVisibility = {
   page: Page;
-  intersectionRatio: number;
+  intersectionRatio?: number;
 }
 
 export type VisiblePageState = {

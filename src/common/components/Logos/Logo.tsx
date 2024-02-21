@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import { LogoProps } from './logos-types';
+import { FC } from "react";
+import { LogoProps } from "./logos-types";
 
 const Logo: FC<LogoProps> = ({ size, image }) => {
   const Image = image;

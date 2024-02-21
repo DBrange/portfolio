@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import  { FC } from 'react';
 import { AnimationBlockProps } from './animation-block-types';
 
 const AnimationBlock: FC<AnimationBlockProps> = ({ text }) => (
