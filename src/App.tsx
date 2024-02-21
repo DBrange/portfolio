@@ -1,26 +1,28 @@
-import React from 'react';
 import Header from './components/Header/Header';
-import './common/styles/main.scss';
-import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
+import Main from './components/Main/Main';
 import Sidebar from './components/Sidebar/Sidebar';
-import WorkExperience from './pages/WorkExperience/WorkExperience';
 import Home from './pages/Home/Home';
-import WhoAmI from './pages/WhoAmI/WhoAmI';
 import Projects from './pages/Projects/Projects';
+import WhoAmI from './pages/WhoAmI/WhoAmI';
+import WorkExperience from './pages/WorkExperience/WorkExperience';
+import "./common/styles/main.scss";
 
-const App = () => (
-  <div className='app-container'>
-    <Header />
-    <Main>
-      <Home />
-      <WhoAmI />
-      <WorkExperience />
-      <Projects />
-    </Main>
-    <Sidebar />
-    <Footer />
-  </div>
-);
+function App() {
 
-export default App;
+  return (
+    <div className="app-container">
+      <Header />
+      <Main>
+        <Home />
+        <WhoAmI />
+        <WorkExperience />
+        <Projects />
+      </Main>
+      <Sidebar />
+      <Footer />
+    </div>
+  );
+}
+
+export default App

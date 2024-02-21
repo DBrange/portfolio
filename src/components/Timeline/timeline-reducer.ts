@@ -6,13 +6,28 @@ const initialState: TimelineState = {
   steps: [
     {
       content: [
-        "Junto a un compañero de equipo, nos encargamos desde diseñar la mejor experiencia de usuario, hasta crear el desarrollo del frontend y backend, trabajamos en lograr que la web sea mas rápida, fácil de usar y divertida.",
-        "Encargado 100% del frontend y parte del backend.",
+        "Encargado de la estructura y manejo de seguridad del frontend",
+        "Desarrollo de rutas y servicios para API",
+        "Algunas tecnologias usadas: Next, Typescrpt, Mongoose, MongoDB, +",
+      ],
+      header: "Febrero 2023 - Presente",
+      title: {
+        position: "Fullstack Developer",
+        company: {
+          name: "Greenplus",
+          url: URL.GREENPLUS,
+        },
+      },
+    },
+    {
+      content: [
+        "Encargado de diseñar la mejor experiencia de usuario, facil, accesible y rapida",
+        "Encargado del desarrollo de la misma end-to-end",
         "Algunas tecnologias usadas: React, Nest, Typescrpt, PostgreSQL, +",
       ],
       header: "Julio 2023 - Enero 2024",
       title: {
-        position: "Fullstack Developer",
+        position: "Fullstack Developer (Freelance)",
         company: {
           name: "Reclamo Web",
           url: URL.RECLAMOWEB,
@@ -22,7 +37,7 @@ const initialState: TimelineState = {
     {
       content: [
         "Liderar el desarrollo frontend del proyecto.",
-        "Junto a un 7 compañeros de equipo, desarrollamos un CRM accesible, para grandes y pequeñas empresas.",
+        "Junto a 7 compañeros de equipo, desarrollamos un CRM accesible, para grandes y pequeñas empresas.",
         "Algunas tecnologias usadas: React, Express, Javascript, PostgreSQL, +",
       ],
       header: "Marzo 2023 - Abril 2023",

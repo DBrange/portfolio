@@ -28,13 +28,11 @@ $moving-border-width: 150px;
     @include tablet-width() {
       text-align: center;
       width: auto;
-
+      margin-right: 0px;
       .link {
         margin: 0 auto;
       }
     }
-
-
   }
 
   &__moving-border {
@@ -46,18 +44,20 @@ $moving-border-width: 150px;
     background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
 
     padding: 1px 0 1px 1px;
-   
+
     &[data-animate="true"] {
-      animation: initial-border-animation 1.5s $speed forwards, border-animation 1.5s 1.5s $speed infinite;
+      animation: initial-border-animation 1.5s $speed forwards,
+        border-animation 1.5s 1.5s $speed infinite;
 
       @include tablet-width() {
-        animation: initial-border-animation-small 1.5s $speed forwards, border-animation 1.5s 1.5s $speed infinite;
+        animation: initial-border-animation-small 1.5s $speed forwards,
+          border-animation 1.5s 1.5s $speed infinite;
       }
     }
     animation-direction: alternate;
 
     &:hover {
-      animation-duration: .5s;
+      animation-duration: 0.5s;
     }
 
     @include tablet-width() {
@@ -99,19 +99,20 @@ $moving-border-width: 150px;
     background-position: 0px 0px, 0px 100%, 0px 0px, $moving-border-width 0px;
   }
   100% {
-    background-position: $moving-border-width 0px, $moving-border-width 100%, 0px $moving-border-width, $moving-border-width $moving-border-width;
+    background-position: $moving-border-width 0px, $moving-border-width 100%,
+      0px $moving-border-width, $moving-border-width $moving-border-width;
   }
 }
-
 
 @keyframes initial-border-animation {
   0% {
     background-position: 0px 0px, 0px 100%, 0px 0px, 0px 0px;
   }
   100% {
-    background-position: $moving-border-width 0px, $moving-border-width 100%, 0px $moving-border-width, $moving-border-width $moving-border-width;
+    background-position: $moving-border-width 0px, $moving-border-width 100%,
+      0px $moving-border-width, $moving-border-width $moving-border-width;
     width: $moving-border-width;
-    max-height: 500px
+    max-height: 500px;
   }
 }
 
@@ -120,8 +121,9 @@ $moving-border-width: 150px;
     background-position: 0px 0px, 0px 100%, 0px 0px, 0px 0px;
   }
   100% {
-    background-position: $moving-border-width 0px, $moving-border-width 100%, 0px $moving-border-width, $moving-border-width $moving-border-width;
+    background-position: $moving-border-width 0px, $moving-border-width 100%,
+      0px $moving-border-width, $moving-border-width $moving-border-width;
     width: calc(100% - #{$concept-width});
-    max-height: 500px
+    max-height: 500px;
   }
 }
