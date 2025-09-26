@@ -1,6 +1,7 @@
 import { FC, useState } from "react";
 import TabHeader from "./components/TabHeader";
 import { TabsProps } from "./tabs-types";
+import * as React from "react";
 
 const Tabs: FC<TabsProps> = ({
   tabHeaders,
