@@ -1,4 +1,6 @@
 enum URL {
+  EMPTY = "",
+  BRADI = "",
   GREENPLUS = "https://greenplus.global/",
   RECLAMOWEB = "https://reclamoweb.com/",
   STAFFSPHERE = "https://vimeo.com/816071079",

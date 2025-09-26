@@ -6,13 +6,44 @@ const initialState: TimelineState = {
   steps: [
     {
       content: [
+        "Crear, diseñar e implementar solución agil, rapida y flexible para eventos deportivos",
+        "Implementar estrategia para retener y alcanzar nuevos usuarios",
+        "Arquitectura hexagonal en Backend y scream architecture en Frontend",
+        "Tecnologias usadas: Flutter, Go, MongoDB",
+      ],
+      header: "Agosto 2024 - Presente",
+      title: {
+        position: "Fullstack Developer (Propio)",
+        company: {
+          name: "Bradi",
+          url: URL.BRADI,
+        },
+      },
+    },
+    {
+      content: [
+        "Modificar añadir y actualizar interfaz de usuario, API y DB",
+        "Mejorar y eficientizar la consulta de datos, en Backend y Frontend",
+        "Algunas tecnologias usadas: Angular, Nest.js, Mongoose, Sass, +",
+      ],
+      header: "Marzo 2024 - Agosto 2024",
+      title: {
+        position: "Fullstack Developer (Freelance)",
+        company: {
+          name: "Genesis Agency",
+          url: URL.EMPTY,
+        },
+      },
+    },
+    {
+      content: [
         "Encargado de la estructura y manejo de seguridad del frontend",
         "Desarrollo de rutas y servicios para API",
         "Algunas tecnologias usadas: Next, Typescrpt, Mongoose, MongoDB, +",
       ],
-      header: "Febrero 2023 - Presente",
+      header: "Febrero 2024 - Marzo 2024",
       title: {
-        position: "Fullstack Developer",
+        position: "Fullstack Developer (Freelance)",
         company: {
           name: "Greenplus",
           url: URL.GREENPLUS,

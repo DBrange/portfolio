@@ -20,14 +20,14 @@ const WhoAmI = () => {
       <div className="whoami__container">
         <Title title="Sobre mi" subtitle="quien soy" />
         <p>
-          Hola! mi nombre es <b>Didier</b>, desarrollo paginas web desde hace
-          mas de 1 año, con preferencia en Front-End.
+          Hola! mi nombre es <b>Didier</b>, desarrollo aplicaciones web y mobile
+          desde hace mas de 2 años.
         </p>
         <p>
-          He trabajado siempre con el mismo objetivo, dar soluciones a los
-          problemas, tanto en <b>Back-end</b> como en <b>Fornt-end</b>,
-          aprendiendo en el camino. Si este sitio llamó su atención, no dude en
-          ponerse en contacto conmigo.
+          He trabajado siempre con el mismo objetivo, dar soluciones a problemas
+          reales, tanto en <b>Back-end</b> como en <b>Fornt-end</b>, aprendiendo
+          en el camino. Si este sitio llamó su atención, no dude en ponerse en
+          contacto conmigo.
         </p>
         <Link href="mailto:brangedidier@gmail.com" type={LinkTypes.BUTTON}>
           <Button label="Contactame!" />

@@ -18,6 +18,20 @@ const Projects = () => {
         subtitle="en los que he estado trabajando"
       />
       <div className="projects__box-container">
+        {/* <Box
+          title="Bradi"
+          description="Gestiona tus torneos"
+          tags={["Flutter", "Go", "MongoDB"]}
+          imageSize={LogoSize.XSMALL}
+          url={URL.BRADI}
+        /> */}
+        <Box
+          title="Greenplus"
+          description="Facilita la obtencion de tu huella de carbono."
+          tags={["Next", "Nest", "Mongoose", "Typescript"]}
+          imageSize={LogoSize.XSMALL}
+          url={URL.GREENPLUS}
+        />
         <Box
           title="Reclamo Web"
           description="Facilitar reclamos o seguros, tanto para vehiculos o electrodomesticos."
