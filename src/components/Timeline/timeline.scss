@@ -13,7 +13,7 @@ $ball-radius: $ball-width / 2;
       margin: $spacing-xsmall 0;
       max-width: 500px;
       border-radius: 0 $border-radius $border-radius $border-radius;
-      @include themed-border('', 1px, dashed, primary);
+      @include themed-border("", 1px, dashed, primary);
       @include themed(background-color, background);
       @include dotted-shadow(primary, $spacing-xsmall);
     }
@@ -40,13 +40,13 @@ $ball-radius: $ball-width / 2;
 
     &:last-of-type {
       .timeline__ball {
-        &::before{
-          content: '';
+        &::before {
+          content: "";
           @include themed-gradiant-shadow(0deg, background);
           position: absolute;
           left: 7px;
           top: 1px;
-          content: '';
+          content: "";
           width: 5px;
           height: 100%;
         }
@@ -55,22 +55,22 @@ $ball-radius: $ball-width / 2;
 
     &:first-of-type {
       .timeline__ball {
-        &::before{
-          content: '';
+        &::before {
+          content: "";
           @include themed-gradiant-shadow(180deg, background);
           position: absolute;
           left: 7px;
           top: -50px;
-          content: '';
+          content: "";
           width: 5px;
           height: 100px;
           z-index: -1;
         }
-        &:after{
+        &:after {
           position: absolute;
-          content: '';
+          content: "";
           height: 120%;
-          left: $ball-radius - 1px;
+          left: $ball-radius + 0px;
           top: -50px;
           z-index: -2;
         }
@@ -83,20 +83,28 @@ $ball-radius: $ball-width / 2;
     height: $ball-width;
     border-radius: 50%;
     @include themed(background-color, secondary);
-  
-    &:after{
+
+    &:after {
       position: absolute;
-      content: '';
+      content: "";
       width: 1px;
       height: 100%;
-      left: $ball-radius - 1px;
+      left: $ball-radius +0px;
       top: 1px;
       z-index: -1;
       @include themed(background-color, background);
       @include themed-line(text);
       background-repeat: repeat-x, repeat-x, repeat-y;
-      background-size: 15px 1px, 15px 1px, 1px 15px, 1px 15px;
-      background-position: left top, right bottom, left bottom, right top;
+      background-size:
+        15px 1px,
+        15px 1px,
+        1px 15px,
+        1px 15px;
+      background-position:
+        left top,
+        right bottom,
+        left bottom,
+        right top;
       animation: line-animation 1s infinite linear;
     }
   }
@@ -104,9 +112,17 @@ $ball-radius: $ball-width / 2;
 
 @keyframes line-animation {
   0% {
-    background-position: left top, right bottom, left bottom, right top;
+    background-position:
+      left top,
+      right bottom,
+      left bottom,
+      right top;
   }
   100% {
-    background-position: left 15px top, right 15px bottom , left bottom 15px , right   top 15px;
+    background-position:
+      left 15px top,
+      right 15px bottom,
+      left bottom 15px,
+      right top 15px;
   }
 }

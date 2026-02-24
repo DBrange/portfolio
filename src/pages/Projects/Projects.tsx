@@ -26,6 +26,13 @@ const Projects = () => {
           url={URL.BRADI}
         /> */}
         <Box
+          title="Bradi"
+          description="Automatización de torneos y rankings."
+          tags={["Flutter", "Go", "MongoDB"]}
+          imageSize={LogoSize.XSMALL}
+          url={URL.BRADI}
+        />
+        <Box
           title="Greenplus"
           description="Facilita la obtencion de tu huella de carbono."
           tags={["Next", "Nest", "Mongoose", "Typescript"]}

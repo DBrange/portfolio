@@ -1,6 +1,6 @@
 enum URL {
   EMPTY = "",
-  BRADI = "",
+  BRADI = "https://play.google.com/store/apps/details?id=com.bradiofficial.bradi",
   GREENPLUS = "https://greenplus.global/",
   RECLAMOWEB = "https://reclamoweb.com/",
   STAFFSPHERE = "https://vimeo.com/816071079",

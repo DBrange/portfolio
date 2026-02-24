@@ -21,7 +21,7 @@ const WhoAmI = () => {
         <Title title="Sobre mi" subtitle="quien soy" />
         <p>
           Hola! mi nombre es <b>Didier</b>, desarrollo aplicaciones web y mobile
-          desde hace mas de 2 años.
+          desde hace ya 3 años.
         </p>
         <p>
           He trabajado siempre con el mismo objetivo, dar soluciones a problemas

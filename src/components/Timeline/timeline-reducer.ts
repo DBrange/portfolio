@@ -22,11 +22,12 @@ const initialState: TimelineState = {
     },
     {
       content: [
-        "Modificar añadir y actualizar interfaz de usuario, API y DB",
-        "Mejorar y eficientizar la consulta de datos, en Backend y Frontend",
+        "Modificar y actulizar interfaz de usuario para mejorar accesibiliad y lograr mas retención",
+        "Mejorar y eficientizar la consulta de datos en el Backend",
+        "Refactorizar el codigo para mejorar documentacion y la implementacion de nuevas funcionalidades",
         "Algunas tecnologias usadas: Angular, Nest.js, Mongoose, Sass, +",
       ],
-      header: "Marzo 2024 - Agosto 2024",
+      header: "Febrero 2024 - Agosto 2024",
       title: {
         position: "Fullstack Developer (Freelance)",
         company: {
@@ -56,7 +57,7 @@ const initialState: TimelineState = {
         "Encargado del desarrollo de la misma end-to-end",
         "Algunas tecnologias usadas: React, Nest, Typescrpt, PostgreSQL, +",
       ],
-      header: "Julio 2023 - Enero 2024",
+      header: "Mayo 2023 - Enero 2024",
       title: {
         position: "Fullstack Developer (Freelance)",
         company: {
